@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    /*background-color: #121212;*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+
+    background-color: #fff;
+}
+
+
+
+.container {
+    display: flex;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: rgb(230, 238, 226);
+    border-radius: 25px;
+}
+
+
+
+.header {
+    padding: 20px;
+
+    background-color: rgb(156, 175, 144);
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Nav*/
+
+.nav {
+    text-align: center;
+    /* VIRAVNIVANIE ssilok po centru */
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    /* Zona CLICKa po ssilke stala boljwe
+    sleva i sprava po 8 i 12 px*/
+
+    color: black;
+    text-decoration: none;
+    /* NETU PODCHERKIVANIJA underline*/
+}
+
+.nav-link:hover {
+    /*PSEVDOCLASS, SLITNO!!!*/
+    background-color: rgb(231, 238, 227);
+}
+
+/* CONTENT */
+
+.content {
+    width: 800px;
+    padding: 0 20px;
+    /* padding so vseh storon, ne prilipaet!!! */
+}
+
+.intro {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-title {
+    /*4tobi ne prilipalo dr. k d.r*/
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.content-text {
+    margin-bottom: 20px;
+    /* 4tobi otdelitj TEXT ot zagolovka */
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.read-more {
+    color: #1479c3;
+    text-decoration: none;
+}
+
+.read-more.hover {
+    text-decoration: underline;
+}
+
+/* Section */
+
+section {
+    padding: 0 10px 0 10px;
+
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 15px;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(192, 211, 181);
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+
+.sidebar-title {
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+
+    color: #000000;
+}
+
+/* Article */
+
+.article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgb(49, 11, 11);
+}
+
+.article-title {
+    margin: 0 0 5px;
+    /* OTSTUP snizu*/
+
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.article-title a {
+    color: inherit;
+    /* ssilka nasleduet roditelja */
+    text-decoration: none;
+}
+
+.article-title a:hover {
+
+    text-decoration: underline;
+}
+
+.article-date {
+    font-size: 12px;
+    color: #000000;
+}
+
+.block {
+    clear: right;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+
+    background-color: #6b7268;
+
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* KNOPKA */
